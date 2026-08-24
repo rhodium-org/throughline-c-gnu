@@ -1,0 +1,12 @@
+uid: SR-0043
+type: system_requirement
+status: approved
+title: Assume int is at least 32 bits
+text: >-
+  Handle CPU differences such as byte order and alignment, but make no effort to cater for
+  an int narrower than 32 bits, as GNU does not support 16-bit machines.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: CPU Portability — Integer Width"

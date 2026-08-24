@@ -1,0 +1,18 @@
+throughline-c-gnu
+Copyright 2026 Henry J Grech-Cini
+
+This product includes work developed by Dr Henry J Grech-Cini.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for the
+full terms.
+
+This repository is a throughline *source*: a requirements graph, not a program. It
+re-expresses chapter 5 of the GNU Coding Standards ("Making The Best Use of C") as a
+grounded IDD graph so consuming projects can compose it with throughline-compose.
+
+The GNU Coding Standards are published by the Free Software Foundation under the GNU
+Free Documentation License, version 1.3. The rule text re-expressed here in items'
+`text`/`attrs.source_ref` is derived from that document and remains the work of the
+Free Software Foundation and its contributors; this repository claims no ownership
+over that content and reproduces it for interoperability. See
+https://www.gnu.org/prep/standards/standards.html for the authoritative source.

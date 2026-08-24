@@ -1,0 +1,12 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: Put the open-brace of a function body in column one
+text: >-
+  Put the open-brace that starts the body of a C function in column one, so tools that
+  look for a brace in column one can find the beginnings of functions.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Formatting — Braces"

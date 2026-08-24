@@ -1,0 +1,12 @@
+uid: SR-0053
+type: system_requirement
+status: approved
+title: Prefer plain 7-bit ASCII in source
+text: >-
+  Prefer plain 7-bit ASCII in source comments, text documents and other contexts, unless
+  the application domain gives good reason to do otherwise.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Character Set and Quotes — ASCII"

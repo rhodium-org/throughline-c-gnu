@@ -1,0 +1,12 @@
+uid: SR-0052
+type: system_requirement
+status: approved
+title: Use ngettext for plural forms
+text: >-
+  Do not assume a plural is formed by adding 's'; use ngettext so that languages with
+  different plural rules are handled correctly.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Internationalization — Plurals"

@@ -1,0 +1,11 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: Internationalization
+text: >-
+  Rules governing use of GNU gettext and writing translatable message strings.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "GNU Coding Standards: Internationalization"

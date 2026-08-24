@@ -1,0 +1,12 @@
+uid: SR-0036
+type: system_requirement
+status: approved
+title: Name an option flag after its meaning, not its letter
+text: >-
+  Name a variable that records whether a command-line option was given after the meaning
+  of the option, not its letter, and comment both the meaning and the letter.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Naming — Option Flags"

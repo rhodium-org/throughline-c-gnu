@@ -1,0 +1,12 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: Comment each static variable
+text: >-
+  Put a comment on each static variable explaining what it means and what its values
+  signify.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Comments — Static Variables"

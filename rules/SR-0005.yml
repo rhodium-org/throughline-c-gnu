@@ -1,0 +1,12 @@
+uid: SR-0005
+type: system_requirement
+status: approved
+title: Split an over-long argument list onto aligned continuation lines
+text: >-
+  When a function's arguments do not fit nicely on one line, split them across lines and
+  align the continued arguments under the first argument.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Formatting — Function Definitions"

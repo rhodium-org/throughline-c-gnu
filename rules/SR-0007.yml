@@ -1,0 +1,13 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: Indent a compound statement's braces two spaces and its body further
+text: >-
+  In the body of a function, indent the braces of a compound statement (such as an else or
+  while block) two spaces from the controlling keyword, and indent the statements inside
+  further still, per the recommended GNU style.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Formatting — Compound Statements"

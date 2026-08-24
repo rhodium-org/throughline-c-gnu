@@ -1,0 +1,12 @@
+uid: SR-0018
+type: system_requirement
+status: approved
+title: Refer to an argument value in upper case
+text: >-
+  When speaking about an argument's value rather than the variable itself, write the
+  argument name in upper case ("the inode number NODE_NUM").
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Comments — Identifiers in Prose"

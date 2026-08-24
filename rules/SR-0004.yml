@@ -1,0 +1,13 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: Start a function definition's name in column one
+text: >-
+  Start the name of a function in a definition in column one, placing the return type and
+  storage class on the preceding line, so people and tools can search for function
+  definitions.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Formatting — Function Definitions"

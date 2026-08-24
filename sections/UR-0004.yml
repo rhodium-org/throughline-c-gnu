@@ -1,0 +1,12 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: Naming Variables, Functions, and Files
+text: >-
+  Rules governing meaningful names, abbreviations, word separation, letter case and the
+  naming of option flags and files.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "GNU Coding Standards: Naming"

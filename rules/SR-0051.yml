@@ -1,0 +1,12 @@
+uid: SR-0051
+type: system_requirement
+status: approved
+title: Do not assemble sentences from conditional fragments
+text: >-
+  Do not build a sentence by substituting conditional words or phrases into one framework;
+  use complete alternative sentence strings so each can be translated correctly.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Internationalization — Sentence Structure"

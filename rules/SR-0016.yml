@@ -1,0 +1,12 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: Write complete sentences with two spaces after each period
+text: >-
+  Write complete sentences, capitalise the first word, and put two spaces after the end of
+  a sentence so Emacs sentence commands work.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Comments — Sentence Form"

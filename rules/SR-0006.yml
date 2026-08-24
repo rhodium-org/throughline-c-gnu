@@ -1,0 +1,12 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: Put struct and enum braces in column one unless they fit on one line
+text: >-
+  For a struct or enum type, put the braces in column one, unless the whole contents fits
+  on a single line.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Formatting — Struct and Enum Layout"

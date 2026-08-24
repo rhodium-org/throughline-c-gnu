@@ -1,0 +1,11 @@
+uid: SR-0048
+type: system_requirement
+status: approved
+title: Never write your own declaration of a system function
+text: >-
+  Never make your own declaration of a system function; doing so is a recipe for conflict.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: System Functions — Declarations"

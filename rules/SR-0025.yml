@@ -1,0 +1,12 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: Do not shadow a global identifier with a local or parameter
+text: >-
+  Do not use a local variable or parameter that shadows a global identifier; GCC's
+  -Wshadow can detect this.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Clean Use of C Constructs — Local Variables"

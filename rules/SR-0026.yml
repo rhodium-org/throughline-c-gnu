@@ -1,0 +1,12 @@
+uid: SR-0026
+type: system_requirement
+status: approved
+title: Do not spread multiple variable declarations across lines
+text: >-
+  Do not declare multiple variables in one declaration that spans lines; write them on one
+  line or start a new declaration on each line.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Clean Use of C Constructs — Declarations"

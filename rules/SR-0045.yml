@@ -1,0 +1,12 @@
+uid: SR-0045
+type: system_requirement
+status: approved
+title: Do not assume an int's address is that of its least-significant byte
+text: >-
+  Do not assume the address of an int object is the address of its least-significant byte,
+  which is false on big-endian machines; copy through an unsigned char instead.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: CPU Portability — Byte Order"

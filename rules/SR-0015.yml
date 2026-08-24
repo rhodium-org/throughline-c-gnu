@@ -1,0 +1,13 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: Comment each function's behaviour, arguments and return value
+text: >-
+  Put a comment on each function saying what it does, what its arguments mean and are used
+  for, and the significance of the return value, calling out anything nonstandard about
+  their use.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Comments — Functions"

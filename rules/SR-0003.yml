@@ -1,0 +1,13 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: Do not put an opening bracket in column one inside a function
+text: >-
+  Avoid putting an open-brace, open-parenthesis or open-bracket in column one when it is
+  inside a function, so it does not falsely start a defun; a struct body's brace may go in
+  column one if useful.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Formatting — Braces"

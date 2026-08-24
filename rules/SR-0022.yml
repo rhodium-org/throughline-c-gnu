@@ -1,0 +1,13 @@
+uid: SR-0022
+type: system_requirement
+status: approved
+title: Do not add casts or wrappers merely to placate a static checker
+text: >-
+  Do not make the program ugly merely to placate lint, clang or extra GCC warnings; for
+  example, do not insert casts to void or call do-nothing functions just to silence a
+  checker. The compiler is your servant, not your master.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Clean Use of C Constructs — Static Analysis"

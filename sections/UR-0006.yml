@@ -1,0 +1,12 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: Portability between CPUs
+text: >-
+  Rules governing assumptions about integer and pointer sizes, byte order and casting
+  pointers to integers.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "GNU Coding Standards: CPU Portability"

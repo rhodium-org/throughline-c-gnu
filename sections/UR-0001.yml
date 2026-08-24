@@ -1,0 +1,12 @@
+uid: UR-0001
+type: user_requirement
+status: approved
+title: Formatting Your Source Code
+text: >-
+  Rules governing line length, brace placement, function layout, indentation, line
+  splitting and spacing of GNU C source.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "GNU Coding Standards: Formatting"

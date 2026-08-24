@@ -1,0 +1,12 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: Begin the main program's file with a comment saying what it is for
+text: >-
+  Start the source file containing main with a comment briefly saying what the program is
+  for.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Comments — Program Purpose"

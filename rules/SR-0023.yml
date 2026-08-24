@@ -1,0 +1,13 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: Group forward and external declarations near the file's top
+text: >-
+  Put declarations of external functions and of functions that appear later in the file
+  together near the beginning of the file, or in a header; never put extern declarations
+  inside functions.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Clean Use of C Constructs — Declarations"

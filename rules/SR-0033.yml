@@ -1,0 +1,12 @@
+uid: SR-0033
+type: system_requirement
+status: approved
+title: Limit abbreviations in symbol names
+text: >-
+  Limit the use of abbreviations in symbol names; a few explained abbreviations used
+  frequently are fine, but avoid lots of obscure ones.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Naming — Abbreviations"

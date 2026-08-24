@@ -1,0 +1,12 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: Calling System Functions
+text: >-
+  Rules governing use of standard interfaces, not redeclaring system functions and leaning
+  on Gnulib for portability.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "GNU Coding Standards: System Functions"

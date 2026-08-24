@@ -1,0 +1,15 @@
+uid: INT-0001
+type: intent
+status: approved
+title: C code follows one consistent GNU house style, readable and portable
+text: >-
+  Chapter 5 of the GNU Coding Standards, "Making The Best Use of C", exists so that C
+  across GNU programs shares one house style: a consistent visual layout, disciplined
+  comments, clean use of C constructs, meaningful names, and portability across system
+  types and CPUs. The point is that any GNU contributor can read, search and safely change
+  code they did not write, and that a program built to run first on GNU/Linux still ports
+  cleanly elsewhere. This is the GNU brace-and-space convention specifically, and is
+  deliberately one of two orthogonal C-style choices; it is not the Linux kernel style.
+normative: false
+attrs:
+  source_ref: "GNU Coding Standards"

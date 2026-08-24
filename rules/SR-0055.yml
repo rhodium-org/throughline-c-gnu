@@ -1,0 +1,13 @@
+uid: SR-0055
+type: system_requirement
+status: approved
+title: Use plain ASCII quotes in the C locale
+text: >-
+  In the C locale, use plain ASCII quotation characters in messages to users, preferring
+  0x22 or 0x27 for both opening and closing quotes, and obtain locale quotes via gettext
+  where wanted.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Character Set and Quotes — Quote Characters"

@@ -1,0 +1,13 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: Comment every non-trivial #endif and #else with its condition and sense
+text: >-
+  Give every #endif a comment stating the condition being ended including its sense,
+  except for short unnested conditionals, and comment #else with the condition and sense
+  of the code that follows.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Comments — Preprocessor Conditionals"

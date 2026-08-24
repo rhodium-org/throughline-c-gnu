@@ -1,0 +1,12 @@
+uid: SR-0040
+type: system_requirement
+status: approved
+title: Define the _GNU_SOURCE feature-test macro
+text: >-
+  Define the _GNU_SOURCE feature-test macro when compiling your C files so GNU library
+  extension declarations are enabled and conflicting redefinitions are caught.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: System Portability — Feature Macros"

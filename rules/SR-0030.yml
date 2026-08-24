@@ -1,0 +1,12 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: Avoid assignments inside an if-condition
+text: >-
+  Avoid assignments inside an if-condition; hoist the assignment to its own statement and
+  test the result separately (assignments inside a while-condition are fine).
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Clean Use of C Constructs — Conditions"

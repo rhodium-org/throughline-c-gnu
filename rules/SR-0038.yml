@@ -1,0 +1,13 @@
+uid: SR-0038
+type: system_requirement
+status: approved
+title: Treat GNU/Linux as the primary target, other Unix ports as optional
+text: >-
+  Aim first to run as part of the GNU system on GNU/Linux; porting to other Unix variants
+  is desirable and usually easy but not an obligation, and must not dominate or impede the
+  primary goal.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: System Portability — Primary Target"

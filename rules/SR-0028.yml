@@ -1,0 +1,12 @@
+uid: SR-0028
+type: system_requirement
+status: approved
+title: Write a nested if in an else as else-if or in its own braces
+text: >-
+  For an if nested inside an else, either write else if on one line with the then-part
+  indented like the preceding one, or wrap the nested if in its own braces.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Clean Use of C Constructs — Nested Conditionals"

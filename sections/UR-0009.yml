@@ -1,0 +1,12 @@
+uid: UR-0009
+type: user_requirement
+status: approved
+title: Character Set and Quote Characters
+text: >-
+  Rules governing the source character set, encoding, and quotation characters in program
+  output.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "GNU Coding Standards: Character Set and Quotes"

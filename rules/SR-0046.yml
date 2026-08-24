@@ -1,0 +1,13 @@
+uid: SR-0046
+type: system_requirement
+status: approved
+title: Avoid casting pointers to integers
+text: >-
+  Avoid casting pointers to integers, which greatly reduces portability; where such a cast
+  is essential, make explicit provision for differing word sizes and for malloc address
+  ranges far from zero.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: CPU Portability — Pointer Casts"

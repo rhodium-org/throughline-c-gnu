@@ -1,0 +1,12 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: Put a space before an open-parenthesis and after each comma
+text: >-
+  Put a space before the open-parenthesis of a call or control statement and after each
+  comma, especially after commas.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Formatting — Spacing"

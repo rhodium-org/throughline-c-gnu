@@ -1,0 +1,12 @@
+uid: SR-0049
+type: system_requirement
+status: approved
+title: Use Gnulib to paper over library portability gaps
+text: >-
+  Use Gnulib, integrated with Autoconf and Automake, to supply portable implementations of
+  standard and enhanced interfaces on systems that lack or mishandle them.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: System Functions — Gnulib"

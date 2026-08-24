@@ -1,0 +1,12 @@
+uid: SR-0031
+type: system_requirement
+status: approved
+title: Choose global names that convey meaning
+text: >-
+  Choose informative English names for global variables and functions rather than terse
+  ones, since these names serve as a kind of comment.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "GNU Coding Standards: Naming — Meaningful Names"
