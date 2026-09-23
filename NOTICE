@@ -8,7 +8,7 @@ full terms.
 
 This repository is a throughline *source*: a requirements graph, not a program. It
 re-expresses chapter 5 of the GNU Coding Standards ("Making The Best Use of C") as a
-grounded IDD graph so consuming projects can compose it with throughline-compose.
+grounded IDD graph so consuming projects can compose it with throughline.
 
 The GNU Coding Standards are published by the Free Software Foundation under the GNU
 Free Documentation License, version 1.3. The rule text re-expressed here in items'
