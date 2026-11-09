@@ -1,12 +1,12 @@
 uid: SR-0014
 type: system_requirement
-status: approved
+status: proposed
 title: Write comments in English
-text: >-
-  Write the comments in a GNU program in English, the one language nearly all programmers
-  in all countries can read; get help translating if needed.
+text: Write the comments in a GNU program in English, the one language nearly all
+  programmers in all countries can read; get help translating if needed.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "GNU Coding Standards: Comments — Language"
+  source_ref: 'GNU Coding Standards: Comments — Language'

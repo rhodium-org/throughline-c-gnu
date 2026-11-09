@@ -1,12 +1,12 @@
 uid: SR-0035
 type: system_requirement
-status: approved
+status: proposed
 title: Use lower case, reserving upper case for macros and enum constants
-text: >-
-  Stick to lower case for names, reserving upper case for macros, enum constants and
-  uniform-convention name prefixes.
+text: Stick to lower case for names, reserving upper case for macros, enum constants
+  and uniform-convention name prefixes.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "GNU Coding Standards: Naming — Letter Case"
+  source_ref: 'GNU Coding Standards: Naming — Letter Case'

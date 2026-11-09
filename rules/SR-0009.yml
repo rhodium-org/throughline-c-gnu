@@ -1,12 +1,12 @@
 uid: SR-0009
 type: system_requirement
-status: approved
+status: proposed
 title: Split an expression before an operator, not after it
-text: >-
-  When you split an expression across multiple lines, split it before an operator, not
-  after one.
+text: When you split an expression across multiple lines, split it before an operator,
+  not after one.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "GNU Coding Standards: Formatting — Line Splitting"
+  source_ref: 'GNU Coding Standards: Formatting — Line Splitting'

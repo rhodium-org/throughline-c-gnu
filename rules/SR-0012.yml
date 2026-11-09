@@ -1,12 +1,12 @@
 uid: SR-0012
 type: system_requirement
-status: approved
+status: proposed
 title: Begin the main program's file with a comment saying what it is for
-text: >-
-  Start the source file containing main with a comment briefly saying what the program is
-  for.
+text: Start the source file containing main with a comment briefly saying what the
+  program is for.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "GNU Coding Standards: Comments — Program Purpose"
+  source_ref: 'GNU Coding Standards: Comments — Program Purpose'

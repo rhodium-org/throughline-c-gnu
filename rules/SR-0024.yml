@@ -1,13 +1,13 @@
 uid: SR-0024
 type: system_requirement
-status: approved
+status: proposed
 title: Declare a distinct, well-named local variable for each purpose
-text: >-
-  Declare a separate, meaningfully-named local variable for each distinct purpose rather
-  than reusing one variable, and move each declaration into the smallest scope that
-  includes all its uses.
+text: Declare a separate, meaningfully-named local variable for each distinct purpose
+  rather than reusing one variable, and move each declaration into the smallest scope
+  that includes all its uses.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "GNU Coding Standards: Clean Use of C Constructs — Local Variables"
+  source_ref: 'GNU Coding Standards: Clean Use of C Constructs — Local Variables'

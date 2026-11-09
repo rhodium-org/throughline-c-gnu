@@ -1,12 +1,12 @@
 uid: UR-0003
 type: user_requirement
-status: approved
+status: proposed
 title: Clean Use of C Constructs
-text: >-
-  Rules governing declarations, local variables, nested if/else bracing, and avoiding
-  assignments inside if-conditions.
+text: Rules governing declarations, local variables, nested if/else bracing, and
+  avoiding assignments inside if-conditions.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "GNU Coding Standards: Clean Use of C Constructs"
+  source_ref: 'GNU Coding Standards: Clean Use of C Constructs'

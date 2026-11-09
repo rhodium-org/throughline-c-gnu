@@ -1,12 +1,12 @@
 uid: UR-0005
 type: user_requirement
-status: approved
+status: proposed
 title: Portability between System Types
-text: >-
-  Rules governing which system portability matters, use of Autoconf, feature-test macros
-  and avoiding non-portable names.
+text: Rules governing which system portability matters, use of Autoconf, feature-test
+  macros and avoiding non-portable names.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "GNU Coding Standards: System Portability"
+  source_ref: 'GNU Coding Standards: System Portability'

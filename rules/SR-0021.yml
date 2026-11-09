@@ -1,12 +1,12 @@
 uid: SR-0021
 type: system_requirement
-status: approved
+status: proposed
 title: Explicitly declare the types of all objects
-text: >-
-  Explicitly declare the types of all objects, including all function arguments, and
-  declare a function to return int rather than omitting the type.
+text: Explicitly declare the types of all objects, including all function arguments,
+  and declare a function to return int rather than omitting the type.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "GNU Coding Standards: Clean Use of C Constructs — Explicit Types"
+  source_ref: 'GNU Coding Standards: Clean Use of C Constructs — Explicit Types'

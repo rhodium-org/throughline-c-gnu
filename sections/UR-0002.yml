@@ -1,12 +1,12 @@
 uid: UR-0002
 type: user_requirement
-status: approved
+status: proposed
 title: Commenting Your Work
-text: >-
-  Rules governing what to comment, the language and sentence form of comments, and
-  comments on functions, static variables and preprocessor conditionals.
+text: Rules governing what to comment, the language and sentence form of comments,
+  and comments on functions, static variables and preprocessor conditionals.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "GNU Coding Standards: Comments"
+  source_ref: 'GNU Coding Standards: Comments'

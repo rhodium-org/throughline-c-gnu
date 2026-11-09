@@ -1,12 +1,12 @@
 uid: UR-0009
 type: user_requirement
-status: approved
+status: proposed
 title: Character Set and Quote Characters
-text: >-
-  Rules governing the source character set, encoding, and quotation characters in program
-  output.
+text: Rules governing the source character set, encoding, and quotation characters
+  in program output.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "GNU Coding Standards: Character Set and Quotes"
+  source_ref: 'GNU Coding Standards: Character Set and Quotes'

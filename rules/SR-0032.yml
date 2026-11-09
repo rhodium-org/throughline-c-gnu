@@ -1,12 +1,12 @@
 uid: SR-0032
 type: system_requirement
-status: approved
+status: proposed
 title: Keep local variable names short but clear
-text: >-
-  Local variable names may be shorter, because they are used within one context where
-  comments presumably explain their purpose.
+text: Local variable names may be shorter, because they are used within one context
+  where comments presumably explain their purpose.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "GNU Coding Standards: Naming — Local Names"
+  source_ref: 'GNU Coding Standards: Naming — Local Names'

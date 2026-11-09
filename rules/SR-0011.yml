@@ -1,12 +1,12 @@
 uid: SR-0011
 type: system_requirement
-status: approved
+status: proposed
 title: Format a do-while statement in the GNU brace style
-text: >-
-  Format a do-while statement with do on its own line, the braced body indented, and the
-  while clause on its own line following the closing brace.
+text: Format a do-while statement with do on its own line, the braced body indented,
+  and the while clause on its own line following the closing brace.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "GNU Coding Standards: Formatting — Do-While"
+  source_ref: 'GNU Coding Standards: Formatting — Do-While'

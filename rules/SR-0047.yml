@@ -1,13 +1,13 @@
 uid: SR-0047
 type: system_requirement
-status: approved
+status: proposed
 title: Use standard C and POSIX interfaces where possible
-text: >-
-  Use standard C and POSIX interfaces where possible, taking advantage of them for
-  clearer, more portable or faster code; use a GNU extension where it genuinely makes the
-  program better.
+text: Use standard C and POSIX interfaces where possible, taking advantage of them
+  for clearer, more portable or faster code; use a GNU extension where it genuinely
+  makes the program better.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "GNU Coding Standards: System Functions — Standard Interfaces"
+  source_ref: 'GNU Coding Standards: System Functions — Standard Interfaces'
